@@ -12,6 +12,10 @@ import springfox.documentation.spi.DocumentationType;
 import springfox.documentation.spring.web.plugins.Docket;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
+/*
+ * Configurações do Swagger
+ * */
+
 @Configuration
 @EnableSwagger2
 public class SwaggerConfig extends WebMvcConfigurationSupport {
@@ -23,9 +27,9 @@ public class SwaggerConfig extends WebMvcConfigurationSupport {
 	}
 
 	private ApiInfo metaData() {
-		return new ApiInfoBuilder().title("Spring Boot REST API").description("\"Spring Boot REST API\"")
+		return new ApiInfoBuilder().title("Validator Password REST API").description("\"API destinada a validar senhas\"")
 				.version("1.0.0").license("Apache License Version 2.0")
-				.licenseUrl("https://www.apache.org/licenses/LICENSE-2.0\"").build();
+				.licenseUrl("https://www.apache.org/licenses/LICENSE-2.0").build();
 	}
 
 	@Override

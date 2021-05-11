@@ -1,5 +1,9 @@
 package com.itau.validatorpassword.service;
 
+/*
+ * Declaração da interface
+ */
+
 public interface ValidatorPasswordService {
 
 	boolean validatePassword(String password);
