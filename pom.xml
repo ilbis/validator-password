@@ -11,7 +11,7 @@
 	</parent>
 	<groupId>com.itau</groupId>
 	<artifactId>validator-password</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<packaging>jar</packaging>
 	<name>validator-password</name>
 	<description>Project validator password for Itau</description>
